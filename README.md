@@ -3,18 +3,27 @@
 
  This is an individual final project for Machine Learning 1 by the current MSDS FT Academic Program Director, Prof. Kenneth Co.
 
-### **Project Structure** 
-Twitter-Sentiment-Self-Driving-Cars/
-├── data/
-│   ├── Twitter-sentiment-self-drive-DFE.csv  # Raw dataset
-│   ├── model_summary.csv                     # Model performance summary
-├── notebooks/
-│   └── Marquez_Monico_FinalProject2025A_Notebook.ipynb  # Main notebook
-├── images/
-│   ├── Screenshot.png                        # Screenshot of dataset/analysis
-│   ├── presentation.png                      # Presentation image
-├── README.md                                 # Project description
-├── requirements.txt                          # Python dependencies
-└── .gitignore                                # Ignore unnecessary files
+Key Features of the Project
+
+1. Data Transformation
+Steps performed:
+Handling missing values.
+Removing special characters, hyperlinks, and punctuation.
+Converting text to lowercase.
+Tools used: pandas, re.
+2. Feature Engineering
+Used TF-IDF vectorization to extract features from the text.
+Preprocessed text for input into the sentiment analysis model.
+3. Model Training
+Algorithm used: Logistic Regression.
+Implemented with scikit-learn.
+Trained on 80% of the data and validated on 20%.
+4. Model Inference
+Predictions were made on test data to evaluate sentiment.
+Provided a few example predictions for interpretation.
+5. Model Validation
+Evaluation metrics:
+Accuracy
+Precision, Recall, and F1-score
 
 
