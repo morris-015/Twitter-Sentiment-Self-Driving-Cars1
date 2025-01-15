@@ -1,0 +1,5 @@
+Machine Learning Method,Test Accuracy,Best Parameter,Top Predictor Variable,Run Time
+Logistic Regression,0.88,C=1.5,feature_34,2.3
+Linear SVM,0.89,C=0.01,feature_21,1.5
+Random Forest,0.9,n_estimators=100,feature_8,3.6
+Gradient Boosting Method,0.91,learning_rate=0.1,feature_13,2.8
